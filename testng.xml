@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Retry Session">
+
+	<listeners>
+		<listener class-name="analyser.MyTransform" />
+	</listeners>
+	<test name="Retry Mutiple Failed Test Cases">
+		<classes>
+			<class name="retrypackage.RetryTests" />
+		</classes>
+	</test>
+</suite>
